@@ -317,39 +317,140 @@
                      <!-- Sidebar inner chat end-->
                      <div class="pcoded-main-container">
                             <div class="pcoded-wrapper">
-                                   <nav class="pcoded-navbar">
-                                          <div class="pcoded-inner-navbar main-menu">
-                                                 <div class="pcoded-navigatio-lavel">Navigation</div>
-                                                 <ul class="pcoded-item pcoded-left-item">
-                                                        <li class="pcoded-hasmenu active pcoded-trigger">
-                                                               <a href="javascript:void(0)">
-                                                                      <span class="pcoded-micon"><i class="feather icon-home"></i></span>
-                                                                      <span class="pcoded-mtext">Dashboard</span>
-                                                               </a>
-                                                               <ul class="pcoded-submenu">
-                                                                      <li>
-                                                                             <a href="/">
-                                                                                    <span class="pcoded-mtext">Default</span>
-                                                                             </a>
-                                                                      </li>
-                                                               </ul>
-                                                               <ul class="pcoded-submenu">
-                                                                      <li class="active">
-                                                                             <a href="/avisos/index.php">
-                                                                                    <span class="pcoded-mtext">Avisos</span>
-                                                                             </a>
-                                                                      </li>
-                                                               </ul>
-                                                              <ul class="pcoded-submenu">
-                                                                <li>
-                                                                  <a href="/visitas/index.php">
-                                                                    <span class="pcoded-mtext">Visitas de Asesor</span>
-                                                                  </a>
-                                                                </li>
-                                                              </ul>
-                                                        </li>
-                                          </div>
-                                   </nav>
+                                <nav class="pcoded-navbar">
+                                    <div class="pcoded-inner-navbar main-menu">
+                                        <div class="pcoded-navigatio-lavel">Menu</div>
+                                        <ul class="pcoded-item pcoded-left-item">
+                                            <li class="pcoded-hasmenu active pcoded-trigger">
+                                                <a href="javascript:void(0)">
+                                                  <span class="pcoded-micon">
+                                                      <i class="feather icon-home"></i>
+                                                  </span>
+                                                    <span class="pcoded-mtext">Dashboard</span>
+                                                </a>
+                                                <ul class="pcoded-submenu">
+                                                    <li class="">
+                                                        <a href="/">
+                                                            <span class="pcoded-mtext">Inicio</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="pcoded-submenu">
+                                                    <li class="pcoded-hasmenu active pcoded-trigger">
+                                                        <a href="javascript:void(0)">
+                                                            <span class="pcoded-mtext">Avisos</span>
+                                                        </a>
+                                                        <ul class="pcoded-submenu">
+                                                            <li class="active">
+                                                                <a href="/avisos/index.php">
+                                                                    <span class="pcoded-mtext">Subir Avisos</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <ul class="pcoded-submenu">
+                                                    <li class="pcoded-hasmenu ">
+                                                        <a href="javascript:void(0)">
+                                                            <span class="pcoded-mtext">Tecnica de Produdctos</span>
+                                                        </a>
+                                                        <ul class="pcoded-submenu">
+                                                            <li class="">
+                                                                <a href="/tecnicaproductos/consultatecnica.php">
+                                                                    <span class="pcoded-mtext">Consulta Tecnica de Productos</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="pcoded-hasmenu">
+                                                <a href="javascript:void(0)">
+                                                  <span class="pcoded-micon">
+                                                      <i class="feather icon-file"></i>
+                                                  </span><span class="pcoded-mtext">Consultas y Archivos
+                                                    </span>
+                                                </a>
+                                                <ul class="pcoded-submenu">
+                                                    <li class="pcoded-hasmenu active pcoded-trigger">
+                                                        <a href="javascript:void(0)">
+                                                            <span class="pcoded-mtext">Visitas de Asesor</span>
+                                                        </a>
+                                                        <ul class="pcoded-submenu">
+                                                            <li class="">
+                                                                <a href="/visitas/consulta.php">
+                                                                    <span class="pcoded-mtext">Consulta</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <ul class="pcoded-submenu">
+                                                    <li class="pcoded-hasmenu ">
+                                                        <a href="javascript:void(0)">
+                                                            <span class="pcoded-mtext">Servicio Tecnico</span>
+                                                        </a>
+                                                        <ul class="pcoded-submenu">
+                                                            <li class="">
+                                                                <a href="/serviciotecnico/subirArchivos.php">
+                                                                    <span class="pcoded-mtext">Subir archivo</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="pcoded-submenu">
+                                                            <li class="">
+                                                                <a href="/serviciotecnico/consulta.php">
+                                                                    <span class="pcoded-mtext">Consulta</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <ul class="pcoded-submenu">
+                                                    <li class="pcoded-hasmenu ">
+                                                        <a href="javascript:void(0)">
+                                                            <span class="pcoded-mtext">Control de Plagas</span>
+                                                        </a>
+                                                        <ul class="pcoded-submenu">
+                                                            <li class="">
+                                                                <a href="/avisos/index.php">
+                                                                    <span class="pcoded-mtext">Subir archivo</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="pcoded-submenu">
+                                                            <li class="">
+                                                                <a href="/controlplagas/consulta.php">
+                                                                    <span class="pcoded-mtext">Consulta</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <ul class="pcoded-submenu">
+                                                    <li class="pcoded-hasmenu ">
+                                                        <a href="javascript:void(0)">
+                                                            <span class="pcoded-mtext">Trampas de Grasa</span>
+                                                        </a>
+                                                        <ul class="pcoded-submenu">
+                                                            <li class="">
+                                                                <a href="/avisos/index.php">
+                                                                    <span class="pcoded-mtext">Subir archivo</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="pcoded-submenu">
+                                                            <li class="">
+                                                                <a href="/trampasgrasa/consulta.php">
+                                                                    <span class="pcoded-mtext">Consulta</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                    </div>
+                                </nav>
                                    <div class="pcoded-content">
                                      <div class="pcoded-inner-content">
                                       <div class="main-body">
@@ -385,19 +486,41 @@
                                           <div class="">
                                             <div class="row p-b-15">
                                               <div class="col-auto text-right update-meta">
-                                               <!--  <i
-                                                  class="feather icon-briefcase bg-simple-c-pink file-plus"
-                                                ></i> -->
                                               </div>
                                               <div class="col">
                                                  Subir Archivo
                                                 <h6><input type="file" class="form-control"></h6>
+                                                  <small style="color: red;">*El formato del archivo tiene que ser en PDF</small>
                                               </div>
                                               <div class="col">
                                                  <h6>Formato/Imagen/Tamaño</h6>
                                                      <input type="date" class="form-control">
                                               </div>
                                             </div>
+                                              <div class="row p-b-15">
+                                                  <div class="col-md-8"></div>
+                                                  <div class="col-md-4 form-group">
+                                                      <form action="#" method="#" style="display: inline;">
+                                                          <input size="20" type="text" placeholder="FIltro de Busqueda" class="form-control float-right">
+                                                          <button class="btn btn-round btn-info">
+                                                              Consultar
+                                                          </button>
+                                                      </form>
+                                                  </div>
+                                                  <div class="col">
+                                                      <table class="table table-hover  table-borderless">
+                                                          <thead>
+                                                          <tr>
+                                                              <th>
+                                                                  Foto
+                                                              </th>
+                                                              <th>Acciones</th>
+
+                                                          </tr>
+                                                          </thead>
+                                                      </table>
+                                                  </div>
+                                              </div>
                                           </div>
                                    </div>
                             </div>

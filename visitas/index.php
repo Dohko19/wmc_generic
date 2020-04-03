@@ -317,39 +317,139 @@
                      <!-- Sidebar inner chat end-->
                      <div class="pcoded-main-container">
                             <div class="pcoded-wrapper">
-                                   <nav class="pcoded-navbar">
-                                          <div class="pcoded-inner-navbar main-menu">
-                                                 <div class="pcoded-navigatio-lavel">Navigation</div>
-                                                 <ul class="pcoded-item pcoded-left-item">
-                                                        <li class="pcoded-hasmenu active pcoded-trigger">
-                                                               <a href="javascript:void(0)">
-                                                                      <span class="pcoded-micon"><i class="feather icon-home"></i></span>
-                                                                      <span class="pcoded-mtext">Dashboard</span>
-                                                               </a>
-                                                               <ul class="pcoded-submenu">
-                                                                      <li>
-                                                                             <a href="/">
-                                                                                    <span class="pcoded-mtext">Default</span>
-                                                                             </a>
-                                                                      </li>
-                                                               </ul>
-                                                               <ul class="pcoded-submenu">
-                                                                      <li class=>
-                                                                             <a href="/avisos/index.php">
-                                                                                    <span class="pcoded-mtext">Avisos</span>
-                                                                             </a>
-                                                                      </li>
-                                                               </ul>
-                                                              <ul class="pcoded-submenu">
-                                                                <li class="active">
-                                                                  <a href="/visitas/index.php">
-                                                                    <span class="pcoded-mtext">Visitas de Asesor</span>
-                                                                  </a>
-                                                                </li>
-                                                              </ul>
-                                                        </li>
-                                          </div>
-                                   </nav>
+                                <nav class="pcoded-navbar">
+                                    <div class="pcoded-inner-navbar main-menu">
+                                        <div class="pcoded-navigatio-lavel">Menu</div>
+                                        <ul class="pcoded-item pcoded-left-item">
+                                            <li class="pcoded-hasmenu active pcoded-trigger">
+                                                <a href="javascript:void(0)">
+                                                    <span class="pcoded-micon"><i class="feather icon-home"></i>
+                                                    </span>
+                                                    <span class="pcoded-mtext">Dashboard</span>
+                                                </a>
+                                                <ul class="pcoded-submenu">
+                                                    <li class="">
+                                                        <a href="/">
+                                                            <span class="pcoded-mtext">Inicio</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="pcoded-submenu">
+                                                    <li class="pcoded-hasmenu ">
+                                                        <a href="javascript:void(0)">
+                                                            <span class="pcoded-mtext">Avisos</span>
+                                                        </a>
+                                                        <ul class="pcoded-submenu">
+                                                            <li class="">
+                                                                <a href="/avisos/index.php">
+                                                                    <span class="pcoded-mtext">Subir Avisos</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <ul class="pcoded-submenu">
+                                                    <li class="pcoded-hasmenu ">
+                                                        <a href="javascript:void(0)">
+                                                            <span class="pcoded-mtext">Tecnica de Produdctos</span>
+                                                        </a>
+                                                        <ul class="pcoded-submenu">
+                                                            <li class="">
+                                                                <a href="/tecnicaproductos/consultatecnica.php">
+                                                                    <span class="pcoded-mtext">Consulta Tecnica de Productos</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="pcoded-hasmenu active pcoded-trigger">
+                                                <a href="javascript:void(0)">
+                                                  <span class="pcoded-micon">
+                                                      <i class="feather icon-file"></i>
+                                                  </span><span class="pcoded-mtext">Consultas y Archivos
+                                                    </span>
+                                                </a>
+                                                <ul class="pcoded-submenu">
+                                                    <li class="pcoded-hasmenu active pcoded-trigger">
+                                                        <a href="javascript:void(0)">
+                                                            <span class="pcoded-mtext">Visitas de Asesor</span>
+                                                        </a>
+                                                        <ul class="pcoded-submenu">
+                                                            <li class="active">
+                                                                <a href="/visitas/consulta.php">
+                                                                    <span class="pcoded-mtext">Consulta</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <ul class="pcoded-submenu">
+                                                    <li class="pcoded-hasmenu ">
+                                                        <a href="javascript:void(0)">
+                                                            <span class="pcoded-mtext">Servicio Tecnico</span>
+                                                        </a>
+                                                        <ul class="pcoded-submenu">
+                                                            <li class="">
+                                                                <a href="/avisos/index.php">
+                                                                    <span class="pcoded-mtext">Subir archivo</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="pcoded-submenu">
+                                                            <li class="">
+                                                                <a href="/serviciotecnico/consulta.php">
+                                                                    <span class="pcoded-mtext">Consulta</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <ul class="pcoded-submenu">
+                                                    <li class="pcoded-hasmenu ">
+                                                        <a href="javascript:void(0)">
+                                                            <span class="pcoded-mtext">Control de Plagas</span>
+                                                        </a>
+                                                        <ul class="pcoded-submenu">
+                                                            <li class="">
+                                                                <a href="/avisos/index.php">
+                                                                    <span class="pcoded-mtext">Subir archivo</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="pcoded-submenu">
+                                                            <li class="">
+                                                                <a href="/avisos/index.php">
+                                                                    <span class="pcoded-mtext">Consulta</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <ul class="pcoded-submenu">
+                                                    <li class="pcoded-hasmenu ">
+                                                        <a href="javascript:void(0)">
+                                                            <span class="pcoded-mtext">Trampas de Grasa</span>
+                                                        </a>
+                                                        <ul class="pcoded-submenu">
+                                                            <li class="">
+                                                                <a href="/avisos/index.php">
+                                                                    <span class="pcoded-mtext">Subir archivo</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="pcoded-submenu">
+                                                            <li class="">
+                                                                <a href="/avisos/index.php">
+                                                                    <span class="pcoded-mtext">Consulta</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                    </div>
+                                </nav>
                             <div class="pcoded-content">
                               <div class="pcoded-inner-content">
                                <div class="main-body">
@@ -383,13 +483,30 @@
                                    </div>
                                    <div class="card-block">
                                           <div class="">
+                                              <div class="row ml-1">
+                                                  <div>
+
+                                                  </div>
+                                                  <div class="ml-auto mr-3">
+                                                      <form action="#" style="display: inline;">
+                                                          <div class="input-group mb-3">
+                                                              <input type="date" class="form-control" placeholder="FECHA" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                                              <div class="input-group-append">
+                                                                  <button class="btn btn-outline-info" type="button">Consultar</button>
+                                                              </div>
+                                                          </div>
+                                                      </form>
+                                                  </div>
+                                              </div>
                                             <div class="row p-b-15">
                                               <div class="col-auto text-right update-meta">
+
                                                <!--  <i
                                                   class="feather icon-briefcase bg-simple-c-pink file-plus"
                                                 ></i> -->
                                               </div>
-                                              <div class="col">
+                                              <div class="col-md-12 col-sm-6">
+
                                                  <div class="card-block-big">
                                                         <div id="chartdiv" style="width: 100%;  height: 500px;"></div>
                                                  </div>
@@ -447,21 +564,6 @@
                                       </div>
                             </div>
                      </div>
-                     <!-- SEPARATOR END -->
-                     <div class="md-modal md-effect-12" id="modal-12">
-                      <div class="md-content">
-                          <h3><span class="text-muted text-center">Modal Dialog</span></h3>
-                          <div>
-                              <p>This is a modal window. You can do the following things with it:</p>
-                              <ul>
-                                  <li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-                                  <li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-                                  <li><strong>Close:</strong> click on the button below to close the modal.</li>
-                              </ul>
-                              <button type="button" class="btn btn-primary waves-effect md-close">Close</button>
-                          </div>
-                      </div>
-                  </div>
               </div>
        </div>
        </div>
