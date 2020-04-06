@@ -412,7 +412,7 @@
                                         </a>
                                         <ul class="pcoded-submenu">
                                             <li class="">
-                                                <a href="/avisos/index.php">
+                                                <a href="/controlplagas/subirArchivos.php">
                                                     <span class="pcoded-mtext">Subir archivo</span>
                                                 </a>
                                             </li>
@@ -433,14 +433,14 @@
                                         </a>
                                         <ul class="pcoded-submenu">
                                             <li class="">
-                                                <a href="/avisos/index.php">
+                                                <a href="/trampasgrasa/subirArchivos.php">
                                                     <span class="pcoded-mtext">Subir archivo</span>
                                                 </a>
                                             </li>
                                         </ul>
                                         <ul class="pcoded-submenu">
                                             <li class="">
-                                                <a href="/avisos/index.php">
+                                                <a href="/trampasgrasa/consulta.php">
                                                     <span class="pcoded-mtext">Consulta</span>
                                                 </a>
                                             </li>
@@ -487,7 +487,6 @@
                                                             <div>
 
                                                             </div>
-
                                                         </div>
                                                         <div class="row p-b-15">
                                                             <div class="col-auto text-right update-meta">
@@ -536,6 +535,128 @@
                                                                         <div class="col-sm-8 col-lg-10">
                                                                             <div class="input-group">
                                                                                 <input type="file" class="form-control" placeholder="Normal Text">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-12 col-md-12">
+                                            <div class="card latest-update-card">
+                                                <div class="card-header">
+                                                    <h5>Consulta Tecnica de Productos - Busqueda</h5>
+                                                    <div class="card-header-right">
+                                                        <ul class="list-unstyled card-option">
+                                                            <li>
+                                                                <i class="fa fa fa-wrench open-card-option"></i>
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-window-maximize full-card"></i>
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-minus minimize-card"></i>
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-refresh reload-card"></i>
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-trash close-card"></i>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="card-block">
+                                                    <div class="">
+                                                        <div class="row ml-1">
+                                                            <div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="row p-b-15">
+                                                            <div class="col-auto text-right update-meta">
+
+                                                                <!--  <i
+                                                                   class="feather icon-briefcase bg-simple-c-pink file-plus"
+                                                                 ></i> -->
+                                                            </div>
+                                                            <div class="col-md-12 col-sm-6">
+                                                                <div class="card-block-big">
+                                                                    <p class="text-center">Busqueda</p>
+                                                                    <div class="row">
+                                                                        <label class="col-sm-4 col-lg-2 col-form-label">Codigo/Descripcion</label>
+                                                                        <div class="col-sm-6 col-lg-12">
+                                                                            <div class="input-group">
+                                                                                <input type="text" class="form-control" placeholder="Ingresa texto/ Codigo">
+                                                                            </div>
+                                                                            <div>
+                                                                                <div class="col-xl-6 col-md-12">
+                                                                                    <div class="card user-card-full">
+                                                                                        <div class="row m-l-0 m-r-0">
+                                                                                            <div class="col-sm-4 bg-c-lite-green user-profile">
+                                                                                                <div class="card-block text-center text-white border-1">
+                                                                                                    <div class="m-b-25">
+                                                                                                        <img src="..\files\assets\images\avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-sm-8">
+                                                                                                <div class="card-block">
+                                                                                                    <h6 class="m-b-20 p-b-5 b-b-default f-w-600">Codigo - Descripcion</h6>
+                                                                                                    <div class="row">
+                                                                                                        <div class="col-sm-6">
+                                                                                                            <p class="m-b-10 f-w-600">Ficha Tecnica</p>
+                                                                                                            <p class="m-b-10 f-w-600">Hoja de Seguridad</p>
+                                                                                                            <p class="m-b-10 f-w-600">Retos Microbianas</p>
+                                                                                                        </div>
+
+                                                                                                    </div>
+
+                                                                                                    <ul class="social-link list-unstyled m-t-40 m-b-10">
+                                                                                                        iconos para agregar opciones extra(sugerencia)
+                                                                                                        <li><a href="#!" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="facebook"><i class="feather icon-facebook facebook" aria-hidden="true"></i></a></li>
+                                                                                                        <li><a href="#!" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="twitter"><i class="feather icon-twitter twitter" aria-hidden="true"></i></a></li>
+                                                                                                        <li><a href="#!" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="instagram"><i class="feather icon-instagram instagram" aria-hidden="true"></i></a></li>
+                                                                                                    </ul>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="card user-card-full">
+                                                                                        <div class="row m-l-0 m-r-0">
+                                                                                            <div class="col-sm-4 bg-c-lite-green user-profile">
+                                                                                                <div class="card-block text-center text-white border-1">
+                                                                                                    <div class="m-b-25">
+                                                                                                        <img src="..\files\assets\images\avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-sm-8">
+                                                                                                <div class="card-block">
+                                                                                                    <h6 class="m-b-20 p-b-5 b-b-default f-w-600">Codigo - Descripcion</h6>
+                                                                                                    <div class="row">
+                                                                                                        <div class="col-sm-6">
+                                                                                                            <p class="m-b-10 f-w-600">Ficha Tecnica</p>
+                                                                                                            <p class="m-b-10 f-w-600">Hoja de Seguridad</p>
+                                                                                                            <p class="m-b-10 f-w-600">Retos Microbianas</p>
+                                                                                                        </div>
+
+                                                                                                    </div>
+
+                                                                                                    <ul class="social-link list-unstyled m-t-40 m-b-10">
+                                                                                                        iconos para agregar opciones extra(sugerencia)
+                                                                                                        <li><a href="#!" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="facebook"><i class="feather icon-facebook facebook" aria-hidden="true"></i></a></li>
+                                                                                                        <li><a href="#!" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="twitter"><i class="feather icon-twitter twitter" aria-hidden="true"></i></a></li>
+                                                                                                        <li><a href="#!" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="instagram"><i class="feather icon-instagram instagram" aria-hidden="true"></i></a></li>
+                                                                                                    </ul>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>

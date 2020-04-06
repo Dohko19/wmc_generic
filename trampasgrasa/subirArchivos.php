@@ -323,9 +323,9 @@
                         <ul class="pcoded-item pcoded-left-item">
                             <li class="pcoded-hasmenu ">
                                 <a href="javascript:void(0)">
-                                  <span class="pcoded-micon">
-                                      <i class="feather icon-home"></i>
-                                  </span>
+                                                  <span class="pcoded-micon">
+                                                      <i class="feather icon-home"></i>
+                                                  </span>
                                     <span class="pcoded-mtext">Dashboard</span>
                                 </a>
                                 <ul class="pcoded-submenu">
@@ -366,10 +366,10 @@
                             </li>
                             <li class="pcoded-hasmenu active pcoded-trigger">
                                 <a href="javascript:void(0)">
-                                                  <span class="pcoded-micon">
-                                                      <i class="feather icon-file"></i>
-                                                  </span><span class="pcoded-mtext">Consultas y Archivos
-                                                    </span>
+                                  <span class="pcoded-micon">
+                                      <i class="feather icon-file"></i>
+                                  </span><span class="pcoded-mtext">Consultas y Archivos
+                                    </span>
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class="pcoded-hasmenu ">
@@ -386,19 +386,19 @@
                                     </li>
                                 </ul>
                                 <ul class="pcoded-submenu">
-                                    <li class="pcoded-hasmenu ">
+                                    <li class="pcoded-hasmenu active pcoded-trigger">
                                         <a href="javascript:void(0)">
                                             <span class="pcoded-mtext">Servicio Tecnico</span>
                                         </a>
                                         <ul class="pcoded-submenu">
-                                            <li class="">
+                                            <li class="active">
                                                 <a href="/serviciotecnico/subirArchivos.php">
                                                     <span class="pcoded-mtext">Subir archivo</span>
                                                 </a>
                                             </li>
                                         </ul>
                                         <ul class="pcoded-submenu">
-                                            <li class="active">
+                                            <li class="">
                                                 <a href="/serviciotecnico/consulta.php">
                                                     <span class="pcoded-mtext">Consulta</span>
                                                 </a>
@@ -419,7 +419,7 @@
                                             </li>
                                         </ul>
                                         <ul class="pcoded-submenu">
-                                            <li class="active">
+                                            <li class="">
                                                 <a href="/controlplagas/consulta.php">
                                                     <span class="pcoded-mtext">Consulta</span>
                                                 </a>
@@ -428,7 +428,7 @@
                                     </li>
                                 </ul>
                                 <ul class="pcoded-submenu">
-                                    <li class="pcoded-hasmenu active pcoded-trigger">
+                                    <li class="pcoded-hasmenu ">
                                         <a href="javascript:void(0)">
                                             <span class="pcoded-mtext">Trampas de Grasa</span>
                                         </a>
@@ -440,7 +440,7 @@
                                             </li>
                                         </ul>
                                         <ul class="pcoded-submenu">
-                                            <li class="active">
+                                            <li class="">
                                                 <a href="/trampasgrasa/consulta.php">
                                                     <span class="pcoded-mtext">Consulta</span>
                                                 </a>
@@ -461,7 +461,7 @@
                                         <div class="col-xl-12 col-md-12">
                                             <div class="card latest-update-card">
                                                 <div class="card-header">
-                                                    <h5>Listado de Sucursales por Region</h5>
+                                                    <h5>Subir Archivos</h5>
                                                     <div class="card-header-right">
                                                         <ul class="list-unstyled card-option">
                                                             <li>
@@ -488,50 +488,87 @@
                                                             <div class="col-auto text-right update-meta">
                                                             </div>
                                                             <div class="col-xl-3 col-md-6">
-                                                                <a href="/visitas/index.php">
-                                                                    <div class="card">
-                                                                        <div class="card-footer bg-c-blue">
-                                                                            <div class="row align-items-center">
-                                                                                <div class="col-9">
-                                                                                    <p class="text-white m-b-0">Regiones</p>
-                                                                                </div>
-                                                                                <div class="col-3 text-right">
-                                                                                    <!--puede ir un icono aqui-->
-                                                                                </div>
-                                                                            </div>
+                                                                <div class="card">
+                                                                    <div class="form-group">
+                                                                        <div class="col-sm-10">
+                                                                            <select name="select" class="form-control">
+                                                                                <option value="opt1">Marca</option>
+                                                                                <option value="opt2">Type 2</option>
+                                                                            </select>
                                                                         </div>
-                                                                        <div class="card-block">
-                                                                            <div class="row align-items-center">
-                                                                                <div class="col-8"><br>
-                                                                                    <h4 class="text-c-blue f-w-600">Polanco</h4>
-                                                                                    <h6 class="text-muted m-b-0 text">(60)</h6>
-                                                                                </div>
-                                                                                <div class="col-4 text-right">
-                                                                                    <!-- Icono aqui-->
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
                                                                     </div>
-                                                                </a>
+                                                                    <div class="form-group">
+                                                                        <div class="col-sm-10">
+                                                                            <select name="select" class="form-control">
+                                                                                <option value="opt1">Sucursal</option>
+                                                                                <option value="opt2">Type 2</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
+                                                            <div class="col-xl-3 col-md-6">
+                                                                <div class="form-group">
+                                                                    <div class="col-sm-10">
+                                                                        <input class="form-control" type="date" placeholder="MES/AÑO">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <div class="col-sm-10">
+                                                                        <select name="select" class="form-control">
+                                                                            <option value="">Tipo de Venta</option>
+                                                                            <option value="opt2">Tomas de Agua</option>
+                                                                            <option value="opt3">Servicio Tecnico</option>
+                                                                            <option value="opt4">Control de Plagas</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <input type="File" class="form-control">
+                                                                <button class="btn btn-outline-info">Subir</button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-12 col-md-12">
+                                                            <h5><p>Listado de Archivos</p></h5>
+                                                            <table class="table">
+                                                                <thead>
+                                                                <tr>
+                                                                    <th scope="col">Marca</th>
+                                                                    <th scope="col">Sucursal</th>
+                                                                    <th scope="col">Mes/Año</th>
+                                                                    <th scope="col">Acciones</th>
+                                                                    <th scope="col">Tipo de Visita</th>
+                                                                </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <th scope="row">1</th>
+                                                                    <td>Mark</td>
+                                                                    <td>Otto</td>
+                                                                    <td>@mdo</td>
+                                                                    <td>Pres</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- wather user -->
                                     </div>
+                                    <!-- wather user -->
                                 </div>
                             </div>
-
-                            <div id="styleSelector"></div>
                         </div>
+
+                        <div id="styleSelector"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </div>
 
 <!-- Warning Section Starts -->

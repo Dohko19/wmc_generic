@@ -413,14 +413,14 @@
                                         </a>
                                         <ul class="pcoded-submenu">
                                             <li class="">
-                                                <a href="/avisos/index.php">
+                                                <a href="/controlplagas/subirArchivos.php">
                                                     <span class="pcoded-mtext">Subir archivo</span>
                                                 </a>
                                             </li>
                                         </ul>
                                         <ul class="pcoded-submenu">
                                             <li class="active">
-                                                <a href="/controlplagas/consulta.php">
+                                                <a href="/controlplagas/subirArchivos.php">
                                                     <span class="pcoded-mtext">Consulta</span>
                                                 </a>
                                             </li>
@@ -434,7 +434,7 @@
                                         </a>
                                         <ul class="pcoded-submenu">
                                             <li class="">
-                                                <a href="/avisos/index.php">
+                                                <a href="/trampasgrasa/subirArchivos.php">
                                                     <span class="pcoded-mtext">Subir archivo</span>
                                                 </a>
                                             </li>
