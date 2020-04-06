@@ -22,8 +22,16 @@
        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" />
        <!-- Required Fremwork -->
        <link rel="stylesheet" type="text/css" href="..\files\bower_components\bootstrap\css\bootstrap.min.css" />
+       <!-- sweet alert framework -->
+       <link rel="stylesheet" type="text/css" href="..\files\bower_components\sweetalert\css\sweetalert.css">
+       <!-- themify-icons line icon -->
+       <link rel="stylesheet" type="text/css" href="..\files\assets\icon\themify-icons\themify-icons.css">
+       <!-- ico font -->
+       <link rel="stylesheet" type="text/css" href="..\files\assets\icon\icofont\css\icofont.css">
        <!-- feather Awesome -->
        <link rel="stylesheet" type="text/css" href="..\files\assets\icon\feather\css\feather.css" />
+       <!-- animation nifty modal window effects css -->
+       <link rel="stylesheet" type="text/css" href="..\files\assets\css\component.css">
        <!-- Style.css -->
        <link rel="stylesheet" type="text/css" href="..\files\assets\css\style.css" />
        <link rel="stylesheet" type="text/css" href="..\files\assets\css\jquery.mCustomScrollbar.css" />
@@ -551,8 +559,29 @@
                                                       </div>
                                                       <div class="panel-body">
                                                           <p>
-                                                        <button type="button" class="btn btn-info btn-outline-info waves-effect md-trigger" data-modal="modal-12">Just Me</button>
-                                                        <div id="example1"></div>
+                                                         <button type="button" class="btn btn-primary waves-effect" data-toggle="modal" data-target="#large-Modal">Large</button>
+                                                                <div class="modal fade" id="large-Modal" tabindex="-1" role="dialog">
+                                                                    <div class="modal-dialog modal-lg" role="document">
+                                                                        <div class="modal-content">
+                                                                            <div class="modal-header">
+                                                                                <h4 class="modal-title">Modal title</h4>
+                                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                                    <span aria-hidden="true">&times;</span>
+                                                                                </button>
+                                                                            </div>
+                                                                            <div class="modal-body">
+                                                                                <h5>Default Modal</h5>
+                                                                                <!-- <div id="example1"></div> -->
+                                                                                    <embed src="test.pdf"
+                                                                                           frameborder="0" width="100%" height="400px">
+                                                                            </div>
+                                                                            <div class="modal-footer">
+                                                                                <button type="button" class="btn btn-warning waves-effect " data-dismiss="modal">Close</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
                                                       </div>
                                                       <div class="panel-footer text-primary text-center">
                                                           Descargar
@@ -567,8 +596,7 @@
               </div>
        </div>
        </div>
-
-                                                        <!-- <div id="styleSelector"></div> -->
+                                                        <div id="styleSelector"></div>
                                                  </div>
                                           </div>
                                    </div>
@@ -586,6 +614,13 @@
     <!-- modernizr js -->
     <script type="text/javascript" src="..\files\bower_components\modernizr\js\modernizr.js"></script>
     <script type="text/javascript" src="..\files\bower_components\modernizr\js\css-scrollbars.js"></script>
+    <!-- sweet alert js -->
+    <script type="text/javascript" src="..\files\bower_components\sweetalert\js\sweetalert.min.js"></script>
+    <script type="text/javascript" src="..\files\assets\js\modal.js"></script>
+    <!-- sweet alert modal.js intialize js -->
+    <!-- modalEffects js nifty modal window effects -->
+    <script type="text/javascript" src="..\files\assets\js\modalEffects.js"></script>
+    <script type="text/javascript" src="..\files\assets\js\classie.js"></script>
     <!-- Chart js -->
     <script type="text/javascript" src="..\files\bower_components\chart.js\js\Chart.js"></script>
     <!-- Google map js -->
