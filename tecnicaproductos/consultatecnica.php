@@ -329,7 +329,7 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class="">
-                                        <a href="/">
+                                        <a href="../index.html">
                                             <span class="pcoded-mtext">Inicio</span>
                                         </a>
                                     </li>
@@ -341,7 +341,7 @@
                                         </a>
                                         <ul class="pcoded-submenu">
                                             <li class="">
-                                                <a href="/avisos/index.php">
+                                                <a href="../avisos/index.php">
                                                     <span class="pcoded-mtext">Subir Avisos</span>
                                                 </a>
                                             </li>
@@ -355,7 +355,7 @@
                                         </a>
                                         <ul class="pcoded-submenu">
                                             <li class="active">
-                                                <a href="/tecnicaproductos/consultatecnica.php">
+                                                <a href="../tecnicaproductos/consultatecnica.php">
                                                     <span class="pcoded-mtext">Consulta Tecnica de Productos</span>
                                                 </a>
                                             </li>
@@ -377,7 +377,7 @@
                                         </a>
                                         <ul class="pcoded-submenu">
                                             <li class="">
-                                                <a href="/visitas/consulta.php">
+                                                <a href="../visitas/consulta.php">
                                                     <span class="pcoded-mtext">Consulta</span>
                                                 </a>
                                             </li>
@@ -386,19 +386,19 @@
                                 </ul>
                                 <ul class="pcoded-submenu">
                                     <li class="pcoded-hasmenu ">
-                                        <a href="javascript:void(0)">
+                                        <a href="../javascript:void(0)">
                                             <span class="pcoded-mtext">Servicio Tecnico</span>
                                         </a>
                                         <ul class="pcoded-submenu">
                                             <li class="">
-                                                <a href="/avisos/index.php">
+                                                <a href="avisos/index.php">
                                                     <span class="pcoded-mtext">Subir archivo</span>
                                                 </a>
                                             </li>
                                         </ul>
                                         <ul class="pcoded-submenu">
                                             <li class="">
-                                                <a href="/serviciotecnico/consulta.php">
+                                                <a href="../serviciotecnico/consulta.php">
                                                     <span class="pcoded-mtext">Consulta</span>
                                                 </a>
                                             </li>
@@ -412,14 +412,14 @@
                                         </a>
                                         <ul class="pcoded-submenu">
                                             <li class="">
-                                                <a href="/controlplagas/subirArchivos.php">
+                                                <a href="../controlplagas/subirArchivos.php">
                                                     <span class="pcoded-mtext">Subir archivo</span>
                                                 </a>
                                             </li>
                                         </ul>
                                         <ul class="pcoded-submenu">
                                             <li class="">
-                                                <a href="/avisos/index.php">
+                                                <a href="../avisos/index.php">
                                                     <span class="pcoded-mtext">Consulta</span>
                                                 </a>
                                             </li>
@@ -433,14 +433,14 @@
                                         </a>
                                         <ul class="pcoded-submenu">
                                             <li class="">
-                                                <a href="/trampasgrasa/subirArchivos.php">
+                                                <a href="../trampasgrasa/subirArchivos.php">
                                                     <span class="pcoded-mtext">Subir archivo</span>
                                                 </a>
                                             </li>
                                         </ul>
                                         <ul class="pcoded-submenu">
                                             <li class="">
-                                                <a href="/trampasgrasa/consulta.php">
+                                                <a href="../trampasgrasa/consulta.php">
                                                     <span class="pcoded-mtext">Consulta</span>
                                                 </a>
                                             </li>
